@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-color:  #ffffff;
+         
+}
+
+header {
+    background-image: linear-gradient(40deg,
+    #133335,
+     #39A964 );
+    padding: 15px;
+    color: white;
+    text-align: center;
+    height: 160px;
+}
+
+.imagem1{
+    position: relative;
+    right: -870px;
+    top: -140px;
+}
+
+
+
+nav header a {
+    background-color:  #248a7c;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    width: auto;
+    left: auto;
+    display: block;
+    
+    left: 100%;
+    
+}
+
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    position: relative;
+    top: -10px;
+}
+
+ h2 {
+    color: #248a7c;
+}
+
+
+
+button {
+    padding: 10px 15px;
+    background-image: linear-gradient(40deg,
+        #133335,
+         #39A964 );
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    top: -185px;
+}
+
+button:hover {
+    background-image: linear-gradient(40deg,
+        #ffffff,
+         #39A964 );
+}
+
+
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+.imagem1 {
+    position: relative;
+    
+}
+
+.container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.text1 {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    margin: 30px;
+}
+ 
+.imagem1-container{
+    width: 40px;
+    height: 200px;
+    overflow: hidden;
+ 
+ }
+ 
+ .imagem1-container{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+ }
+ 
+ .imagem1-container:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+
+ 
+ footer {
+    margin-top: 20px;
+    padding: 30px;
+    background-image: linear-gradient(40deg,
+    #39A964,
+    #133335 );
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    position: relative;
+    right: 30px;
+    top: 160px;
+}

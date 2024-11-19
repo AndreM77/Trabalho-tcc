@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html lang="pt-br"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Terrace Garden - Hortas Urbanas em Telhados</title> 
+  <link rel="stylesheet" href="../estilo/styles.css"> 
+ </head> 
+
+  <header>
+   <h1>Terrace Garden</h1>
+   <div class="imagem1">
+   <img src="/img/mundo_de_planta-removebg-preview.png" height="290", width="290"/>
+   <section id="home" class="tab active"> 
+      <h1>Bem-vindo ao Terrace Garden</h1> 
+       
+     </section> 
+   <nav> 
+    <ul> 
+     <li><a href="login.html" onclick="abrirAba('home')">Login</a></li> 
+     <li><a href="sobre.html" onclick="abrirAba('sobre')">Sobre Nós</a></li>
+     <li><a href="contato.html" onclick="abrirAba('contato')">Contato</a></li> 
+     <li><a href="curso.html" onclick="abrirAba('ajuda')">Curso</a></li>
+     
+    </ul> 
+   </nav> 
+  </header>
+  <br>
+  <br> 
+<body>
+    <h2>Plantações</h2>
+  <div class="slider">
+    <div class="slides">
+     <input type="radio" name="radio-btn" id="radio1">
+     <input type="radio" name="radio-btn" id="radio2">
+     <input type="radio" name="radio-btn" id="radio3">
+  
+
+    <div class="slide first">
+      <img src="/img/slider/Como-plantar-sementes-Capa.jpg"  alt="imagem 1"/>
+
+    </div>
+    <div class="slide">
+      <img src="/img/slider/OIP (3).jfif" height="529px" alt="imagem 2"/>
+    </div>
+    <div class="slide">
+      <img src="/img/slider/como-ocorre-a-germinacao-de-sementes-1.jpg" alt="imagem 3"/>
+      
+    </div>
+    
+
+    <div class="navigation-auto">
+      <div class="auto-btn1"></div>
+      <div class="auto-btn2"></div>
+      <div class="auto-btn3"></div>
+      
+    </div>
+  </div>
+
+    <div class="manual-navigation">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+     
+    
+    </div>
+  
+  </div>
+  
+   <h2>Produtos à Venda</h2>
+  <main> 
+   
+   <div id="home" class="tab-active"> 
+     
+    <section class="products"> 
+      <div class="product"> 
+        <h3>Alface Fresca </h3> 
+       <img src="/img/home/alface.jpg" width="350" height="250" alt="Alface Fresca"> 
+       <h3>R$ 15,00 </h3> 
+       <h3>com 40 sementes</h3>
+       <a href="compra.html" onclick="adicionarAoCarrinho('compra.', 5)"><button>Comprar Produto</button></a> 
+      </div>
+     <div class="product">
+      <h3>Banana</h3>
+      <img src="/img/home/banana.webp" width="300" height="250" alt="Banana"> 
+      <h3>R$ 20,00</h3>
+      <h3> A unidade da Banana </h3>
+      <a href="compra.html" onclick="adicionarAoCarrinho('compra.', 5)"><button>Comprar Produto</button></a>
+     </div>
+     <div class="product"> 
+      <h3>Beterraba </h3>
+     <img src="/img/home/beterraba.jfif" width="280" height="250" alt="Beterraba"> 
+     <h3>R$ 13,00</h3> 
+     <h3>com 40 sementes</h3>
+     <a href="compra.html" onclick="adicionarAoCarrinho('compra.', 5)"><button>Comprar Produto</button></a>
+    </div> 
+     <div class="product"> 
+      <h3>Cenoura </h3> 
+     <img src="/img/home/cenoura.jfif" width="350" height="250" alt="Cenoura"> 
+     <h3>R$ 15,00 </h3> 
+     <h3>o pacote com 40 sementes</h3>
+     <a href="compra.html" onclick="adicionarAoCarrinho('compra.', 5)"><button>Comprar Produto</button></a>
+    </div>
+     
+     <div class="product"> 
+      <h3>Maçã</h3>
+      <img src="/img/home/maçã.jfif" width="350" height="250" alt="Maçã"> 
+      <h3>R$ 15,00</h3>
+      <h3>O pacote com 40 sementes</h3> 
+      <a href="compra.html" onclick="adicionarAoCarrinho('compra.', 5)"><button>Comprar Produto</button></a> 
+     </div>
+     <div class="product">
+      <h3>Manga </h3> 
+        <img src="/img/home/manga.webp" width="300" height="250" alt="Manga">
+        <h3>R$ 13,50</h3>
+        <h3> com 40 sementes </h3> 
+        <a href="compra.html" onclick="adicionarAoCarrinho('compra.', 5)"><button>Comprar Produto</button></a>
+       </div>
+       <div class="product"> 
+        <h3>Morango</h3>
+        <img src="/img/home/morango.jfif" width="350" height="250" alt="Morango" >
+        <h3>R$ 13,00</h3>
+           <h3>O pacote com 40 sementes</h3>
+           <a href="compra.html" onclick="adicionarAoCarrinho('compra.', 5)"><button>Comprar Produto</button></a>
+       </div> 
+       <div class="product">
+         <h3>Repolho </h3> 
+        <img src="/img/home/repolho.jpg" width="350" height="250" alt="Repolho"> 
+        <h3>R$ 13,00 </h3> 
+        <h3>com 40 sementes</h3>
+        <a href="compra.html" onclick="adicionarAoCarrinho('compra.', 5)"><button>Comprar Produto</button></a>
+       </div>
+       
+       <div class="product"> 
+         <h3>Rucula</h3> 
+         <img src="/img/home/rucula.jfif" width="350" height="250" alt="Rucula"> 
+         <h3>R$ 13,00</h3> 
+         <h3>com 40 sementes</h3>
+         <a href="compra.html" onclick="adicionarAoCarrinho('compra.', 5)"><button>Comprar Produto</button></a>
+       </div> 
+         <div class="product"> 
+          <h3>Pepino </h3>
+         <img src="/img/home/pepino.jfif" width="350" height="250" alt="Pepino"> 
+         <h3>R$ 5,00 </h3> 
+         <h3>com 40 sementes</h3>
+         <a href="compra.html" onclick="adicionarAoCarrinho('compra.', 5)"><button>Comprar Produto</button></a> 
+        </div>
+    </section> 
+   </div> 
+   <div id="sobre" class="tab"> 
+      
+   </div>
+    
+  </main> 
+  <script src="/web/js/JAVA.JS"></script> 
+ </body>
+ <footer>
+  Terrace Garden - Hortas Urbanas em Telhados © 2024
+</footer>
+   <script src="/web/js/JAVA.JS"></script>  
+</html>
